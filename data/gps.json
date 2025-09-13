@@ -1,0 +1,12 @@
+[
+  {
+    "id": "gp1",
+    "name":"Downtown Dash",
+    "date":"2025-09-13",
+    "location":"Home Track",
+    "results":[
+      {"position":1, "car_id":"c2", "driver":"You", "time":"00:35.120"},
+      {"position":2, "car_id":"c1", "driver":"Friend", "time":"00:35.900"}
+    ]
+  }
+]
