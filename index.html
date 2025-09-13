@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>HotWheels GP — Collection & GPs</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+<h1>HotWheels GP</h1>
+<nav>
+<a href="#home">Home</a>
+<a href="#collection">Collection</a>
+<a href="#gps">GPs</a>
+<a href="#stats">Stats</a>
+<a href="#about">About</a>
+</nav>
+</header>
+
+
+<main>
+<section id="home" class="panel">
+<h2>Welcome</h2>
+<p>Your Hot Wheels collection and the GPs you run — all in one place.</p>
+</section>
+
+
+<section id="collection" class="panel">
+<h2>Collection</h2>
+<div id="gallery" class="grid"></div>
+</section>
+
+
+<section id="gps" class="panel">
+<h2>Grand Prix Events</h2>
+<div id="gp-list"></div>
+</section>
+
+
+<section id="stats" class="panel">
+<h2>Stats & Leaderboard</h2>
+<div id="leaderboard"></div>
+</section>
+
+
+<section id="about" class="panel">
+<h2>About</h2>
+<p>Made by you. Track races, stats, and your favourite cars.</p>
+</section>
+</main>
+
+
+<!-- Simple modal for GP details -->
+<div id="modal" class="modal hidden">
+<div class="modal-content">
+<button id="modal-close">Close</button>
+<div id="modal-body"></div>
+</div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
